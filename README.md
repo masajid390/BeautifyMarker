@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="readme.css">
 # BeautifyMarker
 
-  Leaflet.BeautifyIcon, a plugin that adds colorful iconic markers for Leaflet by giving full control of style to end user, It has also ability to adjust font awesome
+  Leaflet.BeautifyIcon, a plugin that adds colorful iconic markers without images for Leaflet by giving full control of style to end user by giving unlimited colors and many more... It has also ability to adjust font awesome
   and glyphicon icons. Click here for <a href="http://marslan390.github.io/BeautifyMarker">Demo</a>
   
   <div style="text-align: center;"><img src="images/img-demo.PNG" alt="Smiley face"></div>
@@ -16,13 +16,11 @@
 ## Installing
 Add files in following order
 <div id="beautify-installing">
-<span class="angle"><</span><span class="tag">link</span> <span class="attr">href=</span><span class="val">"leaflet/leaflet.css"</span> <span class="attr">rel=</span><span class="val">"stylesheet" </span><span class="angle">></span>
-<!--<span class="angle"><</span><span class="tag">script</span> <span class="attr"> src=</span><span class="val">"leaflet/leaflet.js"</span><pre> "></" </pre> <span class="attr">script</span> <span class="angle">></span>-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"> 
-<link rel="stylesheet" href="leaflet-beautify-marker-icon.css">
-<script src="leaflet-beautify-marker-icon.js"></script>
-<script src="leaflet-beautify-marker.js"></script>  
+1- Font Awesome CSS
+2- Bootstrap CSS 
+3- leaflet-beautify-marker-icon.css
+4- leaflet-beautify-marker.js
+5- leaflet-beautify-marker-icon.js
 </div>
 
 ## Properties
