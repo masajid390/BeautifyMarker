@@ -9,111 +9,301 @@
 <script src="leaflet-beautify-marker.js"></script>
 <script>
     window.onload = function (){
-var map = L.map('map').setView([33.738045, 73.084488], 13);
+        var map = L.map('map').setView([33.738045, 73.084488], 9);
 
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
-        L.BeautifyMarker.marker([33.738045, 73.084488], {icon:L.BeautifyIcon.icon(), draggable:true}).addTo(map);
-         var beautifyMarkerDefaultColor='#1EB300';
+        L.marker([33.89093747081252, 72.7734375], {icon:L.BeautifyIcon.icon(), draggable:true}).addTo(map);
         var options= {
-                icon: 'spinner'
-                , spin:true
-                , iconShape:'marker'
-               , iconStyle:'background-color:black;'
+                icon: 'bus'
+                , borderColor: '#b3334f'
+                , textColor:'#b3334f'
             };
+        L.marker([33.911454454267606, 72.9107666015625], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
         
-         L.BeautifyMarker.marker([33.738045, 73.184488], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
-         var options= {
+        options= {
+                icon: 'plane'
+                , borderColor: '#8D208B'
+                , textColor:'#8D208B'
+                , backgroundColor:'transparent'
+            };
+        L.marker([33.93880275084578, 73.0426025390625], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+        
+         options= {
+                icon: 'ambulance'
+                , borderColor: 'Red'
+                , textColor:'Red'
+                , innerIconStyle:'font-size:11px;padding-top:1px;'
+            };
+        L.marker([33.968420161984795, 73.17718505859375], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+        
+        options= {
+                icon: 'taxi'
+                , borderColor: 'red'
+                , textColor:'Red'
+                , backgroundColor:'#FFF607'
+                , innerIconStyle:'font-size:9px;padding-top:1px;'
+            };
+        L.marker([33.99575015925125, 73.32000732421875], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+        
+        options= {
+               isAlphaNumericIcon: true
+                , borderColor: '#00ABDC'
+                , textColor:'#00ABDC'
+                , innerIconStyle:'margin-top:0;'
+            };
+        L.marker([34.02534773814796, 73.49029541015625], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+        
+        options= {
+                icon: 'spinner'
+                , spin:'true'
+                , borderColor: '#8A90B4'
+                , textColor:'white'
+                , backgroundColor:'#8A90B4'
+            };
+        L.marker([34.052659421375964, 73.65509033203125], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+        
+        options= {
+                icon: 'leaf'
+                , iconShape:'marker'
+            };
+        L.BeautifyMarker.marker([33.920571528675104, 72.77069091796875], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+        
+        options= {
                 icon: 'bus'
                 , iconShape:'marker'
+                , borderColor: '#b3334f'
+                , textColor:'#b3334f'
             };
+        L.BeautifyMarker.marker([33.904616008362325, 72.90802001953125], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
         
-         L.BeautifyMarker.marker([33.738045, 73.284488], {icon:L.BeautifyIcon.icon(options)}).addTo(map);
-
-         var options= {
-                isAlphaNumericIcon: true
-                , text:'A'
+         options= {
+                icon: 'plane'
                 , iconShape:'marker'
+                , borderColor: '#8D208B'
+                , textColor:'#8D208B'
+                , backgroundColor:'transparent'
             };
+        L.BeautifyMarker.marker([33.884097379274905, 73.037109375], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
         
-         L.BeautifyMarker.marker([33.738045, 73.384488], {icon:L.BeautifyIcon.icon(options)}).addTo(map);
-         
-         beautifyMarkerDefaultColor='#009BE9'
-         
-         var options= {
-             isAlphaNumericIcon: true
-               , text: 99
-               , iconShape: 'circle'
-               , borderColor: beautifyMarkerDefaultColor
-               , textColor: beautifyMarkerDefaultColor
+        options= {
+                icon: 'ambulance'
+                , iconShape:'marker'
+                , borderColor: 'Red'
+                , textColor:'Red'
+                , innerIconStyle:'font-size:11px;padding-top:1px;'
             };
+        L.BeautifyMarker.marker([33.865854454071865, 73.17718505859375], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
         
-         L.BeautifyMarker.marker([33.738045, 73.484488], {icon:L.BeautifyIcon.icon(options)}).addTo(map);
-
-var options= {
+        options= {
+                icon: 'taxi'
+                , iconShape:'marker'
+                , borderColor: 'red'
+                , textColor:'Red'
+                , backgroundColor:'#FFF607'
+                , innerIconStyle:'font-size:9px;padding-top:1px;'
+            };
+        L.BeautifyMarker.marker([33.8521697014074, 73.3172607421875], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+        
+        options= {
+                isAlphaNumericIcon: true
+                , text: 10
+                , iconShape:'marker'
+                , borderColor: '#00ABDC'
+                , textColor:'#00ABDC'
+            };
+        L.BeautifyMarker.marker([33.8362013852728, 73.487548828125], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+        
+         options= {
                 icon: 'refresh'
-                , spin:true
-                , iconShape:'circle'
-                , prefix:'glyphicon'
-                , backgroundColor:'black'
-                , customClasses:'custom-classes'
+                , iconShape:'marker'
+                , spin:'true'
+                , borderColor: '#8A90B4'
+                , textColor:'#8A90B4'
+            };
+        L.BeautifyMarker.marker([33.8247936182649, 73.65509033203125], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+        
+        options= {
+                iconShape:'doughnut'
+                , borderWidth:5
             };
         
-         L.BeautifyMarker.marker([33.738045, 73.584488], {icon:L.BeautifyIcon.icon(options)}).addTo(map);
+         L.marker([33.72662401401029, 72.76519775390625], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
          
-         var options= {
-                icon: 'user'
-                , iconShape:'circle'
-                , prefix:'glyphicon'
-                , innerIconStyle:'margin-top:1px;'
-                , iconStyle:'background-color:black;'
+         options= {
+                iconShape:'doughnut'
+                , borderWidth:5
+                , borderColor :'#b3334f'
             };
         
-         L.BeautifyMarker.marker([33.738045, 73.684488], {icon:L.BeautifyIcon.icon(options)}).addTo(map);
+         L.marker([33.742612777346885, 72.9052734375], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'doughnut'
+                , borderWidth:5
+                , borderColor :'#8D208B'
+            };
+        
+         L.marker([33.76088200086917, 73.037109375], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'doughnut'
+                , borderWidth:5
+                , borderColor :'red'
+            };
+        
+         L.marker([33.77686437792359, 73.17993164062499], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'doughnut'
+                , borderWidth:5
+                , borderColor :'#FFF607'
+            };
+        
+         L.marker([33.79056118537381, 73.32550048828125], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'doughnut'
+                , borderWidth:5
+                , borderColor :'#00ABDC'
+            };
+        
+         L.marker([33.815666308702774, 73.4930419921875], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'doughnut'
+                , borderWidth:5
+                , borderColor :'#8A90B4'
+            };
+        
+         L.marker([33.831638461142866, 73.66333007812499], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
          
          
-         var options= {
+         
+         
+         
+         
+         
+         
+         options= {
+                iconShape:'circle-dot'
+                , borderWidth:5
+            };
+        
+         L.marker([33.740328850723834, 72.76519775390625], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'circle-dot'
+                , borderWidth:5
+                , borderColor :'#b3334f'
+            };
+        
+         L.marker([33.75174787568194, 72.90802001953125], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'circle-dot'
+                , borderWidth:5
+                , borderColor :'#8D208B'
+            };
+        
+         L.marker([33.76544869849223, 73.03436279296875], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
                 iconShape:'circle-dot'
                 , borderWidth:5
                 , borderColor :'red'
             };
         
-         L.BeautifyMarker.marker([33.738045, 73.784488], {icon:L.BeautifyIcon.icon(options)}).addTo(map);
+         L.marker([33.77686437792359, 73.17993164062499], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
          
-         var options= {
+         options= {
+                iconShape:'circle-dot'
+                , borderWidth:5
+                , borderColor :'#FFF607'
+            };
+        
+         L.marker([33.78599582629231, 73.32550048828125], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'circle-dot'
+                , borderWidth:5
+                , borderColor :'#00ABDC'
+            };
+        
+         L.marker([33.80425580201489, 73.49029541015625], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'circle-dot'
+                , borderWidth:5
+                , borderColor :'#8A90B4'
+            };
+        
+         L.marker([33.81794822741499, 73.66333007812499], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         
+         
+         
+         
+         options= {
                 iconShape:'rectangle-dot'
                 , borderWidth:5
-                , borderColor :'blue'
             };
         
-         L.BeautifyMarker.marker([33.738045, 73.884488], {icon:L.BeautifyIcon.icon(options)}).addTo(map);
+         L.marker([33.740328850723834, 72.76519775390625], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
          
-         
-         var options= {
-                iconShape:'doughnut'
+         options= {
+                iconShape:'rectangle-dot'
                 , borderWidth:5
-                , borderColor :'brown'
+                , borderColor :'#b3334f'
             };
         
-         L.BeautifyMarker.marker([33.738045, 73.984488], {icon:L.BeautifyIcon.icon(options)}).addTo(map);
-        var startPoint = [33.738045, 73.084488], latlng = [33.738045, 73.084488];
-        var line =L.polyline([startPoint, latlng], {draggable: true}).addTo(map);
-        /*
-        var draggable = new L.Draggable(line);
-        draggable.enable();
-
-        map.on('click', function (e) {
-
-            var latlng = e.latlng;
-            L.polyline([startPoint, latlng]).addTo(map);
-            startPoint = latlng;
-        });*/
+         L.marker([33.747180448149855, 72.90802001953125], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'rectangle-dot'
+                , borderWidth:5
+                , borderColor :'#8D208B'
+            };
+        
+         L.marker([33.754031498216385, 73.03985595703124], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'rectangle-dot'
+                , borderWidth:5
+                , borderColor :'red'
+            };
+        
+         L.marker([33.76088200086917, 73.18267822265625], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'rectangle-dot'
+                , borderWidth:5
+                , borderColor :'#FFF607'
+            };
+        
+         L.marker([33.77229828866843, 73.32550048828125], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'rectangle-dot'
+                , borderWidth:5
+                , borderColor :'#00ABDC'
+            };
+        
+         L.marker([33.78599582629231, 73.49029541015625], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
+         
+         options= {
+                iconShape:'rectangle-dot'
+                , borderWidth:5
+                , borderColor :'#8A90B4'
+            };
+        
+         L.marker([33.79512630103207, 73.66333007812499], {icon:L.BeautifyIcon.icon(options), draggable:true}).addTo(map);
 }
 </script>
 <body>
-    Leaflet Demo
+    Beautify Marker
     <div id="map" style="height:100%; width:100%;"></div>
 </body>
 </html>

@@ -4,6 +4,8 @@
   Leaflet.BeautifyIcon, a plugin that adds colorful iconic markers for Leaflet by giving full control of style to end user, It has also ability to adjust font awesome
   and glyphicon icons. Click here for <a href="http://marslan390.github.io/BeautifyMarker">Demo</a>
   
+  <img src="images/img-demo.png" alt="Smiley face" height="800" width="500">
+  
 ## Prerequisities
   <ul>
   <li>Font Awesome Icons 4.6.1</li>

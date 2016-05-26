@@ -78,11 +78,11 @@
             applyDefaults: function (options) {
 
                 if (options) {
-                    if (!options.iconSize) {
+                    if (!options.iconSize && options.iconShape) {
                         options.iconSize = defaults.iconSize[options.iconShape];
                     }
 
-                    if (!options.iconAnchor) {
+                    if (!options.iconAnchor && options.iconShape) {
                         options.iconAnchor = defaults.iconAnchor[options.iconShape];
                     }
 
