@@ -30,6 +30,14 @@
             , 'doughnut': [8, 8]
         },
 
+        popupAnchor: {
+            'marker': [0, -25]
+            , 'circle': [-3, -76]
+            , 'circle-dot': [0, -2]
+            , 'rectangle-dot': [0, -2]
+            , 'doughnut': [0, -2]
+        },
+
         innerIconAnchor: {
             'marker': [-2, 5]
             , 'circle': [0, 2]
@@ -84,6 +92,10 @@
 
                     if (!options.iconAnchor && options.iconShape) {
                         options.iconAnchor = defaults.iconAnchor[options.iconShape];
+                    }
+
+                    if (!options.popupAnchor && options.iconShape) {
+                        options.popupAnchor = defaults.popupAnchor[options.iconShape];
                     }
 
                     if (!options.innerIconAnchor) {
