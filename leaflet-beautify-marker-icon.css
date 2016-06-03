@@ -8,6 +8,7 @@
     text-align: center;
     font-weight: 700;
     font-family: monospace;
+    position:absolute;
 }
 
     .beautify-marker.circle {
