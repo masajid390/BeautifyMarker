@@ -5,6 +5,9 @@
   and glyphicon icons. Click here for <a href="http://marslan390.github.io/BeautifyMarker">Demo</a>
   
   <div style="text-align: center;"><img src="images/img-demo.PNG" alt="Smiley face"></div>
+
+## JSFiddle Demo
+<a href="https://jsfiddle.net/MuhammadArslan/faqok0c9/17/">JSFiddle Demo</a>
   
 ## Prerequisities
   <ul>
