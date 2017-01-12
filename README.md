@@ -3,12 +3,12 @@
 
   Leaflet.BeautifyIcon, a lightweight plugin that adds colorful iconic markers without images for Leaflet by giving full control of style to end user ( i.e. unlimited colors and many more...). It has also ability to adjust font awesome
   and glyphicon icons. Click here for <a href="http://marslan390.github.io/BeautifyMarker">Demo</a>
-  
+
   <div style="text-align: center;"><img src="images/img-demo.PNG" alt="Smiley face"></div>
 
 ## JSFiddle Demo
 <a href="https://jsfiddle.net/MuhammadArslan/faqok0c9/19/">JSFiddle Demo</a>
-  
+
 ## Prerequisities
   <ul>
   <li>Font Awesome Icons 4.6.1</li>
@@ -22,8 +22,8 @@ Add files in following order
 1- Font Awesome CSS </br>
 2- Bootstrap CSS </br>
 3- leaflet-beautify-marker-icon.css</br>
-4- leaflet-beautify-marker.js</br>
-5- leaflet-beautify-marker-icon.js
+4- leaflet-beautify-marker-icon.js</br>
+5- leaflet-beautify-marker.js
 </div>
 
 ## Properties
@@ -164,7 +164,7 @@ Add files in following order
 </tr>
 </tbody>
 </table>
-  
+
 ## Supported Icons
 All font awesome and glypicons
 
