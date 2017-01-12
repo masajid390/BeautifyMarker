@@ -119,6 +119,13 @@
 
                 iconDiv.innerHTML = !options.html ? this.createIconInnerHtml() : options.html;
                 this._setIconStyles(iconDiv);
+                
+                // having a marker requires an extra parent div for rotation correction
+                if (this.options.iconShape === 'marker') { 
+                    var wrapperDiv = document.createElement('div');
+                    wrapperDiv.appendChild(iconDiv);
+                    return wrapperDiv;
+                }
 
                 return iconDiv;
             },
