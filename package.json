@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/marslan390/BeautifyMarker.git"
   },
-  "main": "leaflet-beautify-marker.js",
+  "main": "leaflet-beautify-marker-icon.js",
   "style": "leaflet-beautify-marker-icon.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
