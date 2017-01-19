@@ -22,9 +22,24 @@ Add files in following order
 1- Font Awesome CSS </br>
 2- Bootstrap CSS </br>
 3- leaflet-beautify-marker-icon.css</br>
-4- leaflet-beautify-marker.js</br>
-5- leaflet-beautify-marker-icon.js
+4- leaflet-beautify-marker-icon.js
 </div>
+
+## Usage
+
+Create markers as usual with Leaflet with ``L.BeautifyIcon.icon`` using available options from below. Example:
+
+```
+options = {
+    icon: 'leaf',
+    iconShape: 'marker'
+};
+L.marker([48.13710, 11.57539], {
+    icon: L.BeautifyIcon.icon(options),
+    draggable: true
+}).addTo(map).bindPopup("popup").bindPopup("This is a BeautifyMarker");
+
+```
 
 ## Properties
 <table>
