@@ -24,4 +24,12 @@
         border-top-right-radius: 50% 100%;
         border-bottom-left-radius: 100% 50%;
         border-bottom-right-radius: 0%;
+        /* rotating 45deg clockwise to get the corner bottom center */
+        transform: rotate(45deg); 
+        
+    }
+
+    .beautify-marker.marker > * {
+        /* rotating 45deg counterclock to adjust marker content back to normal */
+        transform: rotate(-45deg);
     }
