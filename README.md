@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="readme.css">
-# BeautifyMarker
+## BeautifyMarker
 
   Leaflet.BeautifyIcon, a lightweight plugin that adds colorful iconic markers without images for Leaflet by giving full control of style to end user ( i.e. unlimited colors and many more...). It has also ability to adjust font awesome
   and glyphicon icons. Click here for <a href="http://marslan390.github.io/BeautifyMarker">Demo</a>
