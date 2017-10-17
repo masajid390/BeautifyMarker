@@ -9,6 +9,9 @@
     font-weight: 700;
     font-family: monospace;
     position:absolute;
+     -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
     .beautify-marker.circle {

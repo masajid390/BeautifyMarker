@@ -6,12 +6,11 @@
   <div style="text-align: center;"><img src="images/img-demo.PNG" alt="Smiley face"></div>
 
 ## JSFiddle Demo
-<a href="https://jsfiddle.net/MuhammadArslan/faqok0c9/173/">JSFiddle Demo</a>
+<a href="https://jsfiddle.net/MuhammadArslan/faqok0c9/219/">JSFiddle Demo</a>
   
 ## Prerequisities
   <ul>
   <li>Font Awesome Icons 4.6.1</li>
-  <li>Bootstrap 3</li>
   <li>Latest Leaflet Library</li>
   </ul>
 
