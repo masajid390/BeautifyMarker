@@ -80,7 +80,7 @@
             initialize: function (options) {
 
                 this.applyDefaults(options);
-                this.options = L.Util.setOptions(this, options);
+                this.options = (!options || !options.html)  ? L.Util.setOptions(this, options) : options;
             },
 
             applyDefaults: function (options) {
