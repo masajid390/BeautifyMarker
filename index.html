@@ -2,6 +2,8 @@
 <link href="leaflet/leaflet.css" rel="stylesheet">
 <script src="leaflet/leaflet.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <link rel="stylesheet" href="leaflet-beautify-marker-icon.css">
 <script src="leaflet-beautify-marker-icon.js"></script>
 <script>
@@ -14,9 +16,8 @@
 
         L.marker([33.89093747081252, 72.7734375], { icon: L.BeautifyIcon.icon(), draggable: true }).addTo(map).bindPopup("I'm Beautify");
         var options = {
-            icon: 'bus'
-                , borderColor: '#b3334f'
-                , textColor: '#b3334f'
+            html: '<i class="material-icons">face</i>',
+            iconAnchor: [11, 10]
         };
         L.marker([33.89093747081252, 72.9107666015625], { icon: L.BeautifyIcon.icon(options), draggable: true }).addTo(map).bindPopup("I'm Beautify");
 
