@@ -20,7 +20,7 @@
   "author": {
     "name": "Muhammad Arslan Sajid"
   },
-  "license": "MAS",
+  "license": "MIT (https://opensource.org/licenses/MIT)",
   "dependencies": {},
   "bugs": {
     "url": "https://github.com/marslan390/BeautifyMarker/issues"
