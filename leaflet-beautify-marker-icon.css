@@ -14,10 +14,6 @@
     box-sizing: border-box;
 }
 
-.beautify-marker-wrapper {
-    position: absolute;
-}
-
     .beautify-marker.circle {
         border-radius: 100%;
     }
