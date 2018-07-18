@@ -123,6 +123,7 @@
                 // having a marker requires an extra parent div for rotation correction
                 if (this.options.iconShape === 'marker') { 
                     var wrapperDiv = document.createElement('div');
+                    wrapperDiv.className = 'beautify-marker';
                     wrapperDiv.appendChild(iconDiv);
                     return wrapperDiv;
                 }
