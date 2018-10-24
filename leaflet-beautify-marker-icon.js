@@ -73,7 +73,7 @@
                , textColor: defaults.iconColor
                , customClasses: ''
                , spin: false
-               , prefix: 'fa'
+               , prefix: 'fas'
                , html: ''
             },
 
@@ -148,8 +148,16 @@
                 if (options.spin) {
                     spinClass = ' fa-spin';
                 }
-
-                return '<i class="' + options.prefix + ' ' + options.prefix + '-' + options.icon + spinClass + '" style="' + innerIconStyle + '"></i>';
+                /*fontawesome 5.4.1
+                https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4
+                
+                New Prefix	|  Icon Style        	 |  SVG + JS Filename	| Web Font Filename	| Availability
+                fab	        |  Font Awesome Brands | brands.js	        |  fa-brands-400.*  |	Free
+                fas or fa   |	Font Awesome Solid   |	solid.js	        |  fa-solid-900.*   |	Free
+                far	        | Font Awesome Regular |	regular.js        |	fa-regular-400.*  |	Pro only
+                fal	        | Font Awesome Light	   | light.js	          | fa-light-300.*    |	Pro only
+                */
+                return '<i class="' + options.prefix + ' ' + options.icon + spinClass + '" style="' + innerIconStyle + '"></i>';
             },
 
             getInnerIconStyle: function (options) {
