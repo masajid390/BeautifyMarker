@@ -10,7 +10,7 @@
   
 ## Prerequisities
   <ul>
-  <li>Font Awesome Icons 4.6.1</li>
+  <li>Font Awesome Icons 5.0 or greater </li>
   <li>Latest Leaflet Library</li>
   </ul>
 
@@ -29,7 +29,7 @@ Create markers as usual with Leaflet with ``L.BeautifyIcon.icon`` using availabl
 
 ```
 options = {
-    icon: 'leaf',
+    icon: 'fa-leaf',
     iconShape: 'marker'
 };
 L.marker([48.13710, 11.57539], {
@@ -53,7 +53,7 @@ L.marker([48.13710, 11.57539], {
 <td>icon</td>
 <td>Name of icon you want to show on marker</td>
 <td>string</td>
-<td>leaf</td>
+<td>fa-leaf</td>
 <td>See glyphicons or font-awesome</td>
 </tr>
 <tr>
@@ -165,8 +165,8 @@ L.marker([48.13710, 11.57539], {
 <td>prefix</td>
 <td>According to icon library</td>
 <td>string</td>
-<td>fa</td>
-<td>glyphicon</td>
+<td>fas </td>
+<td> (fas | fab | far | fal | glyphicon)  </td>
 </tr>
 <tr>
 <td>html</td>
