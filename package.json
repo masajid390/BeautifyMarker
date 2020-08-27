@@ -1,6 +1,6 @@
 {
   "name": "beautifymarker",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "repository": {
     "type": "git",
@@ -25,8 +25,5 @@
   "bugs": {
     "url": "https://github.com/masajid390/BeautifyMarker/issues"
   },
-  "homepage": "https://github.com/masajid390/BeautifyMarker#readme",
-  "_id": "leaflet.beautifymarker@1.1.1",
-  "_shasum": "2ff8e4a6522496f511f2e29211e4718060757f57",
-  "_from": "leaflet.beautifymarker@latest"
+  "homepage": "https://github.com/masajid390/BeautifyMarker#readme"
 }
