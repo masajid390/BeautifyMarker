@@ -7,7 +7,7 @@ and glyphicon icons. Click here for <a href="http://masajid390.github.io/Beautif
 
 ## JSFiddle Demo
 
-<a href="https://jsfiddle.net/MuhammadArslan/faqok0c9/219/">JSFiddle Demo</a>
+<a href="https://jsfiddle.net/MuhammadArslan/faqok0c9/1060/">JSFiddle Demo</a>
 
 ## Prerequisities
 
