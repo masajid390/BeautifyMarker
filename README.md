@@ -188,4 +188,4 @@ All font awesome and glypicons
 
 ## Version
 
-Current version of L.BeautyMarker is 1.0
+Current version of L.BeautyMarker is 1.0.9
