@@ -1,21 +1,25 @@
 ## BeautifyMarker
 
-  Leaflet.BeautifyIcon, a lightweight plugin that adds colorful iconic markers without images for Leaflet by giving full control of style to end user ( i.e. unlimited colors and many more...). It has also ability to adjust font awesome
-  and glyphicon icons. Click here for <a href="http://marslan390.github.io/BeautifyMarker">Demo</a>
-  
+Leaflet.BeautifyIcon, a lightweight plugin that adds colorful iconic markers without images for Leaflet by giving full control of style to end user ( i.e. unlimited colors and many more...). It has also ability to adjust font awesome
+and glyphicon icons. Click here for <a href="http://masajid390.github.io/BeautifyMarker">Demo</a>
+
   <div style="text-align: center;"><img src="images/img-demo.PNG" alt="Smiley face"></div>
 
 ## JSFiddle Demo
+
 <a href="https://jsfiddle.net/MuhammadArslan/faqok0c9/219/">JSFiddle Demo</a>
-  
+
 ## Prerequisities
+
   <ul>
   <li>Font Awesome Icons 4.6.1</li>
   <li>Latest Leaflet Library</li>
   </ul>
 
 ## Installing
+
 Add files in following order
+
 <div id="beautify-installing">
 1- Font Awesome CSS </br>
 2- Bootstrap CSS </br>
@@ -25,7 +29,7 @@ Add files in following order
 
 ## Usage
 
-Create markers as usual with Leaflet with ``L.BeautifyIcon.icon`` using available options from below. Example:
+Create markers as usual with Leaflet with `L.BeautifyIcon.icon` using available options from below. Example:
 
 ```
 options = {
@@ -40,6 +44,7 @@ L.marker([48.13710, 11.57539], {
 ```
 
 ## Properties
+
 <table>
 <thead>
 <th>Property</th>
@@ -182,4 +187,5 @@ L.marker([48.13710, 11.57539], {
 All font awesome and glypicons
 
 ## Version
+
 Current version of L.BeautyMarker is 1.0
