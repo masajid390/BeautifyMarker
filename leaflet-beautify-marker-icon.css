@@ -36,3 +36,9 @@
         /* rotating 45deg counterclock to adjust marker content back to normal */
         transform: rotate(-45deg);
     }
+    
+    /* extra rule to support bootstrap icons */
+    .beautify-marker.marker > i.bi::before {
+        /* rotating 45deg counterclock to adjust marker content back to normal */
+        transform: rotate(-45deg) translateX(-1.5px);
+    }

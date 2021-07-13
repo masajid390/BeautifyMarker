@@ -1,7 +1,6 @@
 ## BeautifyMarker
 
-Leaflet.BeautifyIcon, a lightweight plugin that adds colorful iconic markers without images for Leaflet by giving full control of style to end user ( i.e. unlimited colors and many more...). It has also ability to adjust font awesome
-and glyphicon icons. Click here for <a href="http://masajid390.github.io/BeautifyMarker">Demo</a>
+Leaflet.BeautifyIcon, a lightweight plugin that adds colorful iconic markers without images for Leaflet by giving full control of style to end user ( i.e. unlimited colors and many more...). It has also ability to adjust font awesome, glyphicon and bootstrap icons. Click here for <a href="http://masajid390.github.io/BeautifyMarker">Demo</a>
 
   <div style="text-align: center;"><img src="images/img-demo.PNG" alt="Smiley face"></div>
 
@@ -22,7 +21,7 @@ Add files in following order
 
 <div id="beautify-installing">
 1- Font Awesome CSS </br>
-2- Bootstrap CSS </br>
+2- Bootstrap CSS, Bootstrap Icons CSS (if used) </br>
 3- leaflet-beautify-marker-icon.css</br>
 4- leaflet-beautify-marker-icon.js
 </div>
@@ -59,7 +58,7 @@ L.marker([48.13710, 11.57539], {
 <td>Name of icon you want to show on marker</td>
 <td>string</td>
 <td>leaf</td>
-<td>See glyphicons or font-awesome</td>
+<td>See glyphicons, bootstrap icons or font-awesome</td>
 </tr>
 <tr>
 <td>iconSize</td>
@@ -171,7 +170,7 @@ L.marker([48.13710, 11.57539], {
 <td>According to icon library</td>
 <td>string</td>
 <td>fa</td>
-<td>glyphicon</td>
+<td>glyphicon or bi</td>
 </tr>
 <tr>
 <td>html</td>
@@ -184,7 +183,7 @@ L.marker([48.13710, 11.57539], {
 </table>
   
 ## Supported Icons
-All font awesome and glypicons
+All font awesome, glyphicon and bootstrap icons
 
 ## Version
 
