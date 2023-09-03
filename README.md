@@ -178,7 +178,7 @@ L.marker([48.13710, 11.57539], {
 <td>Create marker by giving own html</td>
 <td>string</td>
 <td>''</td>
-<td>HTML</td>
+<td><a href="https://www.scaler.com/topics/html/">HTML</a></td>
 </tr>
 </tbody>
 </table>
